@@ -394,7 +394,7 @@ export default function Register() {
 
           <div className="auth-footer">
             Already have an account?{" "}
-            <button className="auth-link-btn" onClick={() => navigate("/login")}>
+            <button className="auth-link-btn" onClick={() => navigate("/")}>
               Sign in
             </button>
           </div>
